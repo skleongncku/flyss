@@ -1,8 +1,11 @@
 # BUG FIXED USED
-flyctl apps create >flyss-kun
-flyctl regions set sin
-flyctl secrets set PASSWORD=igotoschoolbybus
-fly ips allocate-v4
+flyctl apps create >flyss-kun  
+flyctl regions set sin  
+flyctl secrets set PASSWORD=igotoschoolbybus  
+
+✘ base: Services defined at indexes: 0 require a dedicated IP address. You currently have no dedicated IPs allocated. Please allocate at least one dedicated IP before deploying (`fly ips allocate-v4` and/or `fly ips allocate-v6`). Affected services: 
+
+fly ips allocate-v4  
 
 # Flyss
 
