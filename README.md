@@ -1,3 +1,9 @@
+# BUG FIXED USED
+flyctl apps create >flyss-kun
+flyctl regions set sin
+flyctl secrets set PASSWORD=igotoschoolbybus
+fly ips allocate-v4
+
 # Flyss
 
 Flyss is a proof-of-concept for deploying a shadowsocks proxy server at little to no cost.
