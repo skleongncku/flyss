@@ -1,4 +1,4 @@
-# BUG FIXED 
+# BUG FIX 
 flyctl apps create  > flyss-kun  
 flyctl regions set sin  
 flyctl secrets set PASSWORD=password 
